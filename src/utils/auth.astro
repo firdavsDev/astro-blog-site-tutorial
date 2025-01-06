@@ -1,7 +1,0 @@
----
-const cookie = Astro.props.request.headers.get("cookie");
-function isLoggedIn() {
-    return cookie.get("token") !== null;
-}
-export { isLoggedIn, cookie };
----
